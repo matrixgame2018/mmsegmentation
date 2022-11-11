@@ -38,7 +38,7 @@ python tools/train.py configs/pspnet/pspnet_r50-d8_4xb4-80k_ade20k-512x512.py --
 work_dirs/test_visual/20220810_115248/vis_data
 ```
 
-vis_data 路径中的标量文件包括了学习率、损失函数和 data_time 等，还记录了指标结果，您可以参考 MMEngine 中的  [logging tutorial](https://mmengine.readthedocs.io/en/latest/advanced_tutorials/logging.html) 中的日志教程来帮助记录自己定义的数据。 Tensorboard 的可视化结果使用下面的命令执行：
+vis_data 路径中的标量文件包括了学习率、损失函数和 data_time 等，还记录了指标结果，您可以参考 MMEngine 中的  [logging 教程](https://mmengine.readthedocs.io/en/latest/advanced_tutorials/logging.html) 中的日志教程来帮助记录自己定义的数据。 Tensorboard 的可视化结果使用下面的命令执行：
 
 ```shell
 tensorboard --logdir work_dirs/test_visual/20220810_115248/vis_data
