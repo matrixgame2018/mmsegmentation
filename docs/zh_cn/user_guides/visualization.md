@@ -165,7 +165,7 @@ seg_local_visualizer.add_datasample(out_file, image,
                                     data_sample, show=False)
 ```
 
-然后可视化后的图像结果和它的对应的 ground truth 图像放在了 `./work_dirs/vis_data/vis_image/` 的路径当中，它的名字是：`out_file_cityscapes_0.png` ：
+可视化后的图像结果和它的对应的 ground truth 图像放在了 `./work_dirs/vis_data/vis_image/` 的路径当中，它的名字是：`out_file_cityscapes_0.png` ：
 
 <div align=center>
 <img src="https://user-images.githubusercontent.com/24582831/189835713-c0534054-4bfa-4b75-9254-0afbeb5ff02e.png" width="70%"/>
