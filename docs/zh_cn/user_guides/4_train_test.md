@@ -267,7 +267,7 @@ test_dataloader = dict(
     persistent_workers=True,
     sampler=dict(type='DefaultSampler', shuffle=False),
     dataset=dict(
-        type = 'ADE20KDataset'
+        type = 'ADE20KDataset',
         data_root='data/ade/release_test',
         data_prefix=dict(img_path='testing'),
         # 测试数据变换中没有加载标注
